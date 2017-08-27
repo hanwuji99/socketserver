@@ -1,7 +1,7 @@
 import socket
 
-host = '127.0.0.1'
-port = 2000
+host = '0.0.0.0'
+port = 80
 s = socket.socket()
 s.bind((host, port))
 
